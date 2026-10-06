@@ -8,6 +8,7 @@ parse rss feed and get new entries since yesterday
 
 To run
 > pip install --no-cache-dir -r requirements.txt
+> 
 > python app.py
 
 or 
