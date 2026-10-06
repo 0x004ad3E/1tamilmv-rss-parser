@@ -1,0 +1,11 @@
+services:
+  rss-parser:
+    build: .
+    container_name: rss-parser
+    # execute the command - id <username>
+    # to get the uid and guid of the user and update below 
+    user: "1000:1000"
+    restart: "no"
+    volumes:
+      - ./output:/output
+      - ./feeds.txt:/app/feeds.txt:ro
