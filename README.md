@@ -17,3 +17,6 @@ To run
 or 
 use with the Dockerfile
 > docker compose up --build
+
+To automate getting notification of newly added entries and automating download using qbittorrent,
+Refer: https://github.com/0x004ad3E/ntfy-qbit-download-automate 
